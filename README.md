@@ -1,6 +1,8 @@
-# Preparing environments
+# 01. Preparing environments
+## Jupyter Lab:
+How to install: guides/INSTALL_JPLab.md
 
-# Getting Data
+# 02. Getting Data
 
 
-# TBD
+# 03.
