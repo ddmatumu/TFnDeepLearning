@@ -1,6 +1,6 @@
 
-# Installation:
-## Install Jupyter Lab:
+# I. Installation:
+## 1. Install Jupyter Lab:
 > ### 01. Anaconda
 >> conda install -c conda-forge jupyterlab
 > ### 02. pip
@@ -9,7 +9,7 @@
 >> pipenv install jupyterlab<br>
 >> pipenv shell
 
-## Starting JupyterLab
+## 2. Starting JupyterLab
 Simply type this following command using the console:
 > jupyter lab
 
