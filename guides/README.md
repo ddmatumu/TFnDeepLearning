@@ -23,7 +23,7 @@ JupyterLab will open automatically in the browser with an interface resembling t
 ** Read more about Jupyter Lab and its advantages at this 
 [link](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b?fbclid=IwAR3O0QkkhCwK1BBJM6akHOhcdM_ZtvgcrHzCYrJj3dJ3IvVS3gk6TSziuTk).
 
-## Install required packages:
+## 3. Install required packages:
 1. In the menu of *Jupyter Lab*, click File -> New -> Terminal. Make sure your current active python environment is *tf_n_dl* (the ENV name will appear at the beginning of the command prompt).
 2. Clone the github repo of this course:
 >> git clone https://github.com/ddmatumu/TFnDeepLearning.git
