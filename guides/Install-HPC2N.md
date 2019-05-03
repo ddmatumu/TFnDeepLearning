@@ -32,4 +32,4 @@ We recommend using the modules and Python virtualenv, but using Anaconda is also
 #### Install some Python packages 
 - You can now install python modules like this: pip install --no-cache-dir <python-package> 
 -- In our case we have several to install. Please download this file with requirements:[hpc2n-course-req.txt](). 
-- pip install pip install -r hpc2n-course-req
+- pip install --no-cache-dir -r hpc2n-course-req.txt
