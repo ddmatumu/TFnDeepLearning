@@ -33,14 +33,15 @@ JupyterLab will open automatically in the browser with an interface resembling t
 > cd TFnDeepLearning; pip install -r requirements.txt
 
 ## 4. Install for HPC2N (console):
+See [Install-HPC2N](guides/Install-HPC2N.md).
 
 # II. Test required packages:
  
 ## 1. With *Jupyter Lab*:
 1. On the *Jupyter Lab*, open `codes/Tests/Test_Packages.jpnb`
 2. Run the import packages section to see if all packages are installed properly:
-
-3. Congratulation, you're done with the installation part.
+![](data/images/img_test_import.png)
+3. If there is no error, congratulation, you're done with the installation part.
 
 ## 2. With console on HPC2N:
-1. <putting here testing script>
+> cd TFnDeepLearning; python3 codes/Tests/Test_Packages.py
