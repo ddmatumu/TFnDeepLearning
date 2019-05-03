@@ -1,16 +1,18 @@
 
 # I. Installation:
-## 1. Install Jupyter Lab: choose *ONE* of following options.
-### 01. Anaconda (recommended, read more [here](https://www.anaconda.com/) if you haven't used Anaconda before.)
+## 1. Install Jupyter Lab:
+### 1.1. For Unix/Linux users: choose *ONE* of following options.
+#### 01. Anaconda (recommended, read more [here](https://www.anaconda.com/) if you haven't used Anaconda before.)
 Create a new python environment called *tf_n_dl* (or activate your current in-use environment)
 > conda create -n tf_n_dl python=3.6<br>
 > conda activate tf_n_dl<br>
 > conda install -c conda-forge jupyterlab
-### 02. pip (directly to your default python environment)
+#### 02. pip (directly to your default python environment)
 > pip install jupyterlab
-### 03. pipenv (read more [here](https://github.com/pypa/pipenv))
+#### 03. pipenv (read more [here](https://github.com/pypa/pipenv))
 > pipenv install jupyterlab<br>
 > pipenv shell
+### 1.2. For Windows users: see this instructions. 
 
 ## 2. Starting JupyterLab
 Active your python environment and simply type this following command using the console:
@@ -29,3 +31,16 @@ JupyterLab will open automatically in the browser with an interface resembling t
 > git clone https://github.com/ddmatumu/TFnDeepLearning.git
 3. Go to the repo and install requirements:
 > cd TFnDeepLearning; pip install -r requirements.txt
+
+## 4. Install for HPC2N (console):
+
+# II. Test required packages:
+ 
+## 1. With *Jupyter Lab*:
+1. On the *Jupyter Lab*, open `codes/Tests/Test_Packages.jpnb`
+2. Run the import packages section to see if all packages are installed properly:
+
+3. Congratulation, you're done with the installation part.
+
+## 2. With console on HPC2N:
+1. <putting here testing script>
