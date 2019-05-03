@@ -2,7 +2,7 @@
 # I. Installation:
 ## 1. Install Jupyter Lab: choose *ONE* of following options.
 ### 01. Anaconda (recommended, read more [here](https://www.anaconda.com/) if you haven't used Anaconda before.)
-1. Create a new python environment called *tf_n_dl* (or activate your current in-use environment)
+Create a new python environment called *tf_n_dl* (or activate your current in-use environment)
 > conda create -n tf_n_dl python=3.6<br>
 > conda activate tf_n_dl<br>
 > conda install -c conda-forge jupyterlab
