@@ -1,17 +1,20 @@
 
 # I. Installation:
-## 1. Install Jupyter Lab:
-> ### 01. Anaconda
+## 1. Install Jupyter Lab: choose *ONE* of following options.
+> ### 01. Anaconda (recommended, read more [here](https://www.anaconda.com/) if you haven't used Anaconda before.)
+> 1. Create a new python environment (or activate your current in-use environment)
+>> conda create -n tf_n_dl --python=3.6
+>> conda activate tf_n_dl
 >> conda install -c conda-forge jupyterlab
-> ### 02. pip
+> ### 02. pip (directly to your default python environment)
 >> pip install jupyterlab
-> ### 03. pipenv
+> ### 03. pipenv (read more [here](https://github.com/pypa/pipenv))
 >> pipenv install jupyterlab<br>
 >> pipenv shell
 
 ## 2. Starting JupyterLab
-Simply type this following command using the console:
-> jupyter lab
+Active your python environment and simply type this following command using the console:
+> jupyter lab --ip=127.0.0.1
 
 JupyterLab will open automatically in the browser with an interface resembling the one below.
 
@@ -21,3 +24,8 @@ JupyterLab will open automatically in the browser with an interface resembling t
 [link](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b?fbclid=IwAR3O0QkkhCwK1BBJM6akHOhcdM_ZtvgcrHzCYrJj3dJ3IvVS3gk6TSziuTk).
 
 ## Install required packages:
+1. In the menu of *Jupyter Lab*, click File -> New -> Terminal. Make sure your current active python environment is *tf_n_dl* (the ENV name will appear at the beginning of the command prompt).
+2. Clone the github repo of this course:
+>> git clone https://github.com/ddmatumu/TFnDeepLearning.git
+3. Go to the repo and install requirements:
+>> cd TFnDeepLearning; pip install -r requirements.txt
