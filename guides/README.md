@@ -38,7 +38,7 @@ See [Install-HPC2N](Install-HPC2N.md).
 # II. Test required packages:
  
 ## 1. With *Jupyter Lab*:
-1. On the *Jupyter Lab*, open `codes/Tests/Test_Packages.jpnb`
+1. On the *Jupyter Lab*, open `codes/tests/Test_Packages.jpnb`
 2. Run the import packages section to see if all packages are installed properly:
 ![](../data/images/img_test_import.png)
 3. If there is no error, congratulation, you're done with the installation part.
