@@ -18,10 +18,9 @@ is easier to remember. See how here: [First Time Login / Password Change](https:
 We recommend using the modules and Python virtualenv, but using Anaconda is also possible. 
 ### 01. Python and Virtualenv
 #### Load some needed modules
-- ml GCCcore/8.2.0 Python/3.7.2
-- ml GCC/8.2.0-2.31.1  CUDA/10.1.105  OpenMPI/3.1.3
-- ml TensorFlow/1.13.1-Python-3.7.2
-- ml SciPy-bundle/2019.03
+- ml GCC/7.3.0-2.30  CUDA/9.2.88  OpenMPI/3.1.1 
+- ml Python/3.6.6
+- ml TensorFlow/1.12.0-Python-3.6.6
 #### Setup your virtual environment
 - Create your first virtual environment. Here I call it 'vpyenv', and put it in my pfs, but you can call it anything, of course. Run the following to initialize the environment:
 - virtualenv --system-site-packages $HOME/pfs/vpyenv
