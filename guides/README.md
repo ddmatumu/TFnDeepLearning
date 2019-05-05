@@ -44,4 +44,4 @@ See [Install-HPC2N](Install-HPC2N.md).
 3. If there is no error, congratulation, you're done with the installation part.
 
 ## 2. With console on HPC2N:
-> cd TFnDeepLearning; python3 codes/Tests/Test_Packages.py
+> cd TFnDeepLearning; python3 codes/tests/Test_Packages.py
