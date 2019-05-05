@@ -8,3 +8,4 @@ numpy==1.15.4
 scikit_learn==0.20.3
 typing==3.6.6
 pandas
+nltk
