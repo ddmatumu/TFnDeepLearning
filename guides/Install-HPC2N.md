@@ -33,8 +33,8 @@ We recommend using the modules and Python virtualenv, but using Anaconda is also
 -- In our case we have several to install. Please download this file with requirements:[hpc2n-course-req.txt](https://github.com/ddmatumu/TFnDeepLearning/blob/master/hpc2n-course-req.txt). 
 - pip install --no-cache-dir -r hpc2n-course-req.txt
 
-ETNLP: 
-Download from [ETNLP homepage](https://github.com/vietnlp/etnlp#installation_and_howtouse)
-Either git clone or unzip, then enter directory created. 
-Go to src/codes under the ETNLP directory. 
-python setup.py install
+ETNLP:  
+Download from [ETNLP homepage](https://github.com/vietnlp/etnlp#installation_and_howtouse)  
+Either git clone or unzip, then enter directory created.   
+Go to src/codes under the ETNLP directory.   
+- python setup.py install
