@@ -4,7 +4,8 @@ How to install: see [README](guides/README.md).
 
 At the end of the above file, there are also instructions for how to install and run from command line (no Jupyter Lab) at HPC2N. 
 
-## Google Colab: see [Howto_GoogleColab](guides/Howto_GoogleColab.md)
+## Google Colab: 
+See [Howto_GoogleColab](guides/Howto_GoogleColab.md).
 
 # 02. Datasets:
 We mostly will work with:
