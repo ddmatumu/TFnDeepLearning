@@ -26,7 +26,7 @@ the account provided by HPC2N directly).
 9. In the Launcher, under *Notebook* -> click to *python3*:
 ![](./pictures/install_windows/anaconda10.png)
 
-10. Open the notebook file at `./codes/tests/Test_Packages.ipynb`:
+10. Open the notebook file at `./codes/tests/Test_Packages.ipynb` and run the testing codes:
 ![](./pictures/install_windows/anaconda11.png)
 
 - Congratulations, that would be all. You are done with the installation. 
