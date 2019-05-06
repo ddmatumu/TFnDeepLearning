@@ -12,7 +12,7 @@ Create a new python environment called *tf_n_dl* (or activate your current in-us
 #### 03. pipenv (read more [here](https://github.com/pypa/pipenv))
 > pipenv install jupyterlab<br>
 > pipenv shell
-### 1.2. For Windows users: see this instructions. 
+### 1.2. For Windows users: see this [Install-Windows](Install_Windows.md). 
 
 ## 2. Starting JupyterLab
 Active your python environment and simply type this following command using the console:
