@@ -2,7 +2,7 @@
 (For Windows 32bits, you will run into many troubles with TF, therefore, you are recommended to use Google Colab or 
 the account provided by HPC2N directly).
 1. Download the [Anaconda installer](https://www.anaconda.com/download/#windows).
-2. Optional: Verify [data integrity with MD5 or SHA-256](https://docs.anaconda.com/anaconda/install/hashes/). More info on hashes.
+2. Optional: Verify [data integrity with MD5 or SHA-256](https://docs.anaconda.com/anaconda/install/hashes/). More info on [hashes](https://conda.io/projects/conda/en/latest/user-guide/install/download.html#cryptographic-hash-verification).
 3. Double click the installer to launch and continue the installation normally. See more 
 [here](https://docs.anaconda.com/anaconda/install/windows/) if you want to follow the process step by step.
 4. After your install is complete, verify it by opening Anaconda Navigator:
@@ -29,5 +29,5 @@ the account provided by HPC2N directly).
 10. Open the notebook file at `./codes/tests/Test_Packages.ipynb`:
 ![](./pictures/install_windows/anaconda11.png)
 
-- Congratulations, that's all. You are done with the installation. 
-If you have any issues, please create [issues](https://github.com/ddmatumu/TFnDeepLearning/issues).
+- Congratulations, that would be all. You are done with the installation. 
+If you have any issues, please create [issues](https://github.com/ddmatumu/TFnDeepLearning/issues), we are happy to help.
