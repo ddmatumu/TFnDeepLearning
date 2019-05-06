@@ -44,7 +44,7 @@ See [Install-HPC2N](Install-HPC2N.md).
 
 
 # 3. Google Colab <a name="howto_google_colab"></a>:
-See [Install-HPC2N](Howto_GoogleColab.md).
+See [Howto-Google-Colab](Howto_GoogleColab.md).
 
 
 # II. Test required packages <a name="test_packages"></a>:
