@@ -1,10 +1,10 @@
 # How to install Anaconda and Tensorflow on Windows 64bits:
 (For Windows 32bits, you will run into many troubles with TF, therefore, you are recommended to use Google Colab or 
 the account provided by HPC2N directly).
-1. Download the Anaconda installer.
-2. Optional: Verify data integrity with MD5 or SHA-256. More info on hashes.
+1. Download the [Anaconda installer](https://www.anaconda.com/download/#windows).
+2. Optional: Verify [data integrity with MD5 or SHA-256](https://docs.anaconda.com/anaconda/install/hashes/). More info on hashes.
 3. Double click the installer to launch and continue the installation normally. See more 
-(here)[https://docs.anaconda.com/anaconda/install/windows/] if you want to follow the process step by step.
+[here](https://docs.anaconda.com/anaconda/install/windows/) if you want to follow the process step by step.
 4. After your install is complete, verify it by opening Anaconda Navigator:
 ![](./pictures/install_windows/anaconda2.png)
 5. Go to *Environments* and create a new environment called **tf_n_dl** (remember to choose python3.6):
@@ -22,10 +22,12 @@ the account provided by HPC2N directly).
 
 9. When you're done with the *Installation*, run the following command to open *Jupyter Lab*:
 > jupyter lab --ip=127.0.0.1
+
 ![](./pictures/install_windows/anaconda9.png)
 10. In the Launcher, under *Notebook* -> click to *python3*:
 ![](./pictures/install_windows/anaconda10.png)
 11. Open the notebook file at `./codes/tests/Test_Packages.ipynb`:
 ![](./pictures/install_windows/anaconda11.png)
 
-## Congratulations, you are done with the installation.
+- Congratulations, that's all. You are done with the installation. 
+If you have any issues, please create [issues](https://github.com/ddmatumu/TFnDeepLearning/issues).
