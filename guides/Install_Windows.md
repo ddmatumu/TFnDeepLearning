@@ -15,7 +15,7 @@ the account provided by HPC2N directly).
 ![](../data/images/install_windows/anaconda6.png)
 8. Go to **Environments** -> click on triangle button of **tf_n_dl** -> open Console and run this command:
 (If you don't have Git command, go to (this link)[https://gitforwindows.org/] to download and install it).
-> git clone https://github.com/ddmatumu/TFnDeepLearning.git
+> git clone https://github.com/ddmatumu/TFnDeepLearning.git<br>
 > cd TFnDeepLearning; pip install -r requirements.txt
 ![](../data/images/install_windows/anaconda7.png)
 9. When you're done with the *Installation*, run the following command to open *Jupyter Lab*:
