@@ -1,9 +1,9 @@
 # Table of contents
-1. [Jupyter Lab](#jupyter_lab)
+1. [Jupyter Lab (recommended)](#jupyter_lab)
     1. [Unix/Linux Users](#installation_linux_unix)
     2. [Windows Users](#installation_windows)
-2. [HPC2N Console](#installation_hpc2n)
-3. [Google Colab](#howto_google_colab)
+2. [HPC2N Console (optional)](#installation_hpc2n)
+3. [Google Colab (optional)](#howto_google_colab)
 4. [Test required packages](#test_packages)
 
 # I. Jupyter Lab <a name="jupyter_lab"></a>:
@@ -38,6 +38,11 @@ JupyterLab will open automatically in the browser with an interface resembling t
 > git clone https://github.com/ddmatumu/TFnDeepLearning.git
 3. Go to the repo and install requirements:
 > cd TFnDeepLearning; pip install -r requirements.txt
+4. Install ETNLP:
+> git clone https://github.com/vietnlp/etnlp.git<br>
+> cd src/codes/
+> python setup.py install
+
 
 # 2. Install for HPC2N (console) <a name="installation_hpc2n"></a>:
 See [Install-HPC2N](Install-HPC2N.md).
