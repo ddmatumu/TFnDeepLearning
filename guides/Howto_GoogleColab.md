@@ -33,7 +33,7 @@ if USE_G_COLAB:
 ~~~~
 
 - Remember to click to the link and paste authentication codes. 
-Then past these codes to test if Google Colab is connected to Google Drive properly:
+Then copy these following codes to test if **Google Colab** is connected to your **Google Drive** properly:
 
 ~~~~
 if USE_G_COLAB:
