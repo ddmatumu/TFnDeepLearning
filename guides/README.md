@@ -44,15 +44,15 @@ JupyterLab will open automatically in the browser with an interface resembling t
 > python setup.py install
 
 
-# 2. Install for HPC2N (console) <a name="installation_hpc2n"></a>:
+# II. Install for HPC2N (console) <a name="installation_hpc2n"></a>:
 See [Install-HPC2N](Install-HPC2N.md).
 
 
-# 3. Google Colab <a name="howto_google_colab"></a>:
+# III. Google Colab <a name="howto_google_colab"></a>:
 See [Howto-Google-Colab](Howto_GoogleColab.md).
 
 
-# II. Test required packages <a name="test_packages"></a>:
+# IV. Test required packages <a name="test_packages"></a>:
  
 ## 1. With **Jupyter Lab** or **Google Colab**:
 1. On the *Jupyter Lab* (or *Google Colab*), open `codes/tests/Test_Packages.jpnb`
