@@ -40,7 +40,7 @@ JupyterLab will open automatically in the browser with an interface resembling t
 > cd TFnDeepLearning; pip install -r requirements.txt
 4. Install ETNLP:
 > git clone https://github.com/vietnlp/etnlp.git<br>
-> cd src/codes/
+> cd src/codes/<br>
 > python setup.py install
 
 
