@@ -35,7 +35,7 @@ git clone https://github.com/ddmatumu/TFnDeepLearning.git
 #### Install some Python packages 
 You can now install python modules like this: pip install --no-cache-dir <python-package> 
   
-In our case we have several to install. Please download this file with requirements:[hpc2n-course-req.txt](https://github.com/ddmatumu/TFnDeepLearning/blob/master/hpc2n-course-req.txt). 
+In our case we have several to install. Please download this file with requirements:[hpc2n-course-req.txt](https://raw.githubusercontent.com/ddmatumu/TFnDeepLearning/master/hpc2n-course-req.txt). 
 - Go to the directory TFnDeepLearning
 - pip install --no-cache-dir -r hpc2n-course-req.txt
 
