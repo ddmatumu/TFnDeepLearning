@@ -1,2 +1,0 @@
-model_checkpoint_path: "ELMO_23.vec_FastText_23.vec_W2V_C2V_23.vec_MULTI_23.vec.ckpt"
-all_model_checkpoint_paths: "ELMO_23.vec_FastText_23.vec_W2V_C2V_23.vec_MULTI_23.vec.ckpt"

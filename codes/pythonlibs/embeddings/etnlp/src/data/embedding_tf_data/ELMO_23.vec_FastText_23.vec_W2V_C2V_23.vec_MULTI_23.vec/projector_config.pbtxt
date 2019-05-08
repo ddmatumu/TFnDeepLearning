@@ -1,4 +1,0 @@
-embeddings {
-  tensor_name: "MULTI_23.vec"
-  metadata_path: "MULTI_23.vec.tsv"
-}

@@ -1,2 +1,0 @@
-model_checkpoint_path: "Tiny_fasttext_wiki_subword.vec_Tiny_fasttext_wiki.vec_Tiny_glove.840B.300d.vec_Tiny_W2V_google_news.vec.ckpt"
-all_model_checkpoint_paths: "Tiny_fasttext_wiki_subword.vec_Tiny_fasttext_wiki.vec_Tiny_glove.840B.300d.vec_Tiny_W2V_google_news.vec.ckpt"
