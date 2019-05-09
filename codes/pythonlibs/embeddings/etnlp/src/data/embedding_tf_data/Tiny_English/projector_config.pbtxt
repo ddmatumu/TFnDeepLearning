@@ -1,0 +1,16 @@
+embeddings {
+  tensor_name: "Tiny_fasttext_wiki_subword.vec"
+  metadata_path: "Tiny_fasttext_wiki_subword.vec.tsv"
+}
+embeddings {
+  tensor_name: "Tiny_fasttext_wiki.vec"
+  metadata_path: "Tiny_fasttext_wiki.vec.tsv"
+}
+embeddings {
+  tensor_name: "Tiny_glove.840B.300d.vec"
+  metadata_path: "Tiny_glove.840B.300d.vec.tsv"
+}
+embeddings {
+  tensor_name: "Tiny_W2V_google_news.vec"
+  metadata_path: "Tiny_W2V_google_news.vec.tsv"
+}
