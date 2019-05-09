@@ -28,18 +28,13 @@ We recommend using the modules and Python virtualenv, but using Anaconda is also
 - Change directory to the environment you created before: cd $HOME/pfs/vpyenv
 - And run: source bin/activate
 - You can later deactivate it with: deactivate
-#### Clone the github repo for the course
-
-git clone https://github.com/ddmatumu/TFnDeepLearning.git
-
 #### Install some Python packages 
-You can now install python modules like this: pip install --no-cache-dir <python-package> 
-  
-In our case we have several to install. Please download this file with requirements:[hpc2n-course-req.txt](https://raw.githubusercontent.com/ddmatumu/TFnDeepLearning/master/hpc2n-course-req.txt). 
-- Go to the directory TFnDeepLearning
+- You can now install python modules like this: pip install --no-cache-dir <python-package> 
+-- In our case we have several to install. Please download this file with requirements:[hpc2n-course-req.txt](https://github.com/ddmatumu/TFnDeepLearning/blob/master/hpc2n-course-req.txt). 
 - pip install --no-cache-dir -r hpc2n-course-req.txt
 
-Install ETNLP:
-- git clone https://github.com/vietnlp/etnlp.git
-- cd src/codes/
+ETNLP:  
+Download from [ETNLP homepage](https://github.com/vietnlp/etnlp#installation_and_howtouse)  
+Either git clone or unzip, then enter directory created.   
+Go to src/codes under the ETNLP directory.   
 - python setup.py install

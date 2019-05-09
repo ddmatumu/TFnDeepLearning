@@ -9,3 +9,5 @@ scikit_learn==0.20.3
 typing==3.6.6
 pandas
 nltk
+tensorflow_hub
+keras
