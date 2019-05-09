@@ -42,10 +42,15 @@ def read_files_from_folder(folder_path, max_files, extension='.txt', convert_fcn
             break
 
         if filename.endswith(extension):
-            with open(file_path.format(filename), 'r') as file:
-                content = convert_fcn(file)
+            # Added by Sonvx for encoding issue in Windows.
+            try:
+                with open(file_path.format(filename), 'r') as file:
+                    content = convert_fcn(file)
 
-                result.append((filename, content))
+                    result.append((filename, content))
+            except:
+                # TODO: handle encoding problem here.
+                pass
 
     return result
 
